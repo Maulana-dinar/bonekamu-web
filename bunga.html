@@ -7,41 +7,42 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>SHOP ALL</title>
 </head>
- <nav class="navbar" style="background-color: #FFADAD;" data-bs-theme="light">
-  <!-- Navbar content -->
-   <nav class="navbar">
+ <nav class="navbar navbar-dark bg-d fixed-top" style="background-color: #E6CFA9;" data-bs-theme="light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="image/Logo.png" alt="Logo" width="15%" class="d-inline-block align-text">
-      Bonekamu
-    </a>
-  </div>
-
-</nav>
-<div class="homedankategori">
-<div class="container-fluid navbar navbar-expand-lg">
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Kategori
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="bunga.html">Bunga</a></li>
-            <li><a class="dropdown-item" href="hewan.html">Hewan</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
+    <a class="navbar-brand" href="navbartext">Bonekamu</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" style="background-color: #CFAB8D;" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Bonekamu</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Kategori
+            </a>
+            <ul class="dropdown-menu" style="background-color: #FBF3D5;">
+              <li><a class="dropdown-item" href="bunga.html">Bunga</a></li>
+              <li><a class="dropdown-item" href="hewan.html">Hewan</a></li>
+                          </ul>
+          </li>
+        </ul>
+      
+      </div>
     </div>
   </div>
 </nav>
-</div>
 
-<body>
+<body class="body">
 
 
 
