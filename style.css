@@ -1,5 +1,6 @@
-.navbar{
-  padding-bottom: 5%;
+.navbarr{
+  padding-bottom: 3%;
+  background-color: #BCA88D;
 }
 .body{
   background-color: #F7F4EA;
@@ -12,32 +13,32 @@ font-family:'Gill Sans', 'Gill Sans MT', Inter, 'Trebuchet MS', sans-serif;
 
 }
 .gambartengah{
-    height: 100%;
-    width: 100%;
+height: 100%;
+width: 100%;
 }
 
 
 .product-card {
-  height: 100%; 
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  transition: transform 0.3s ease, box-shadow 0.1s ease;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
+ height: 100%; 
+ border: 1px solid #ddd;
+ border-radius: 6px;
+ transition: transform 0.3s ease, box-shadow 0.1s ease;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ position: relative;
 }
 .product-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-  position: relative;
+ transform: translateY(-5px);
+ box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+ position: relative;
 }
 .product-info p {
-  font-size: 13px;
-  color: #333;
-  margin-bottom: 8px;
-  min-height: 40px; 
-  position: relative;
+ font-size: 13px;
+ color: #333;
+ margin-bottom: 8px;
+ min-height: 40px; 
+ position: relative;
 }
 .buton{
   background-color:#F7F4EA;
@@ -56,6 +57,7 @@ font-family:'Gill Sans', 'Gill Sans MT', Inter, 'Trebuchet MS', sans-serif;
 }
 .top{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 2%;
 }
 .boneka1{
     width: 70%;
@@ -91,7 +93,7 @@ font-family:'Gill Sans', 'Gill Sans MT', Inter, 'Trebuchet MS', sans-serif;
 }
 /* footer */
 .footer {
-  background-color: #E6CFA9;
+  background-color: #BCA88D;
   display: flex;
   position: relative;
   border-radius: 100px 100px 0px 0px;
@@ -105,4 +107,12 @@ font-family:'Gill Sans', 'Gill Sans MT', Inter, 'Trebuchet MS', sans-serif;
     position: relative;
     padding-right: 40%;
     
+}
+
+
+.up{
+  padding-top: 2%;
+  }
+.pinggir{
+  padding-left: 2%;
 }
