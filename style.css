@@ -41,6 +41,9 @@ width: 100%;
  min-height: 40px; 
  position: relative;
 }
+.bunga{
+  padding-top: 30%;
+}
 .buton{
   background-color:#F7F4EA;
 }
