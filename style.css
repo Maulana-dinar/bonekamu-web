@@ -1,11 +1,12 @@
 .navbarr{
-  padding-bottom: 3%;
   background-color: #BCA88D;
+}
+.jarak{
+  padding-bottom: 4%;
 }
 .body{
   background-color: #F7F4EA;
-  
-}
+  }
 .beruang{
 padding-left: 10%;
 padding-bottom: 2%;
@@ -110,9 +111,6 @@ width: 100%;
 }
 
 
-.up{
-  padding-top: 2%;
-  }
 .pinggir{
   padding-left: 2%;
 }
