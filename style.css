@@ -1,5 +1,6 @@
 .body{
-    background-color: #F7F4EA;
+  background-color: #F7F4EA;
+  
 }
 .beruang{
 padding-left: 10%;
@@ -11,6 +12,32 @@ font-family:'Gill Sans', 'Gill Sans MT', Inter, 'Trebuchet MS', sans-serif;
     height: 100%;
     width: 100%;
 }
+
+
+.product-card {
+  height: 100%; 
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: transform 0.3s ease, box-shadow 0.1s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  position: relative;
+}
+.product-info p {
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 8px;
+  min-height: 40px; 
+  position: relative;
+}
+
+
 .homedankategori{
     padding-left: 20%;
     position:absolute;
@@ -23,18 +50,28 @@ font-family:'Gill Sans', 'Gill Sans MT', Inter, 'Trebuchet MS', sans-serif;
     margin-right: 50%;
     margin-left: 5%;
     position: relative;
-      border-radius: 5% 5% 5% 5%;
+    border-radius: 5% 5% 5% 5%;
 }
 .ketboneka{
-    margin-right: 20%;
     position: relative;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .ketharga{
+    margin-left: -15%;
+    color: #B7B7B7;     
+}
+.ketdiskon{
     margin-right: 15%;
-    position: relative;
     font-family: Georgia 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50%;
+    margin-top: -11%;
+    color: blue;
     
+}
+.keterharga{
+    margin-right: -5%;
+    margin-top: -10%;
+    padding-top: 2%;
 }
 .gambarantengah {
     margin-top: 2%;
@@ -46,8 +83,8 @@ font-family:'Gill Sans', 'Gill Sans MT', Inter, 'Trebuchet MS', sans-serif;
   display: flex;
   position: relative;
   border-radius: 100px 100px 0px 0px;
-  padding-top: 3%;
-  padding-left: 13%;
+  padding-top: 4%;
+  padding-left: 8%;
   margin-top: 3%;
  
 }
