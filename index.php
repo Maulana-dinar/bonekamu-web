@@ -5,7 +5,8 @@
 
 
 <body class="body">
-<?php include "component/billboard.php";?>
+   
+   <?php include "component/billboard.php";?>
   <?php include "page/home.php";?>
   <?php include "component/footer.php";?>
   
