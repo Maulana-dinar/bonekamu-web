@@ -1,23 +1,6 @@
-.navbarr{
-  background-color: #BCA88D;
-}
-.jarak{
-  padding-bottom: 4%;
-}
 .body{
   background-color: #F7F4EA;
   }
-.beruang{
-padding-left: 10%;
-padding-bottom: 2%;
-font-family:'Gill Sans', 'Gill Sans MT', Inter, 'Trebuchet MS', sans-serif;
-
-}
-.gambartengah{
-height: 100%;
-width: 100%;
-}
-
 
 .product-card {
  height:  100%; 
@@ -94,30 +77,4 @@ width: 100%;
 .gambarantengah {
     margin-top: 2%;
     position: relative;
-}
-/* footer */
-.footer {
-  background-color: #BCA88D;
-  display: flex;
-  position: relative;
-  border-radius: 100px 100px 0px 0px;
-  padding-top: 4%;
-  padding-left: 8%;
-  margin-top: 3%;
- 
-}
-.hubungi{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    position: relative;
-    padding-right: 40%;
-    
-}
-
-/* detail */
-.pinggir{
-  padding-left: 2%;
-}
-.detailbunga1{
-  font-family: 'Courier New', Courier, monospace;
-  text-align:left
 }

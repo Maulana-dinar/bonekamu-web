@@ -1,4 +1,7 @@
 <div class="container text-center">
+  <div class="">
+    <p>Boneka terlaris tahun ini</p>
+  </div>  
     <div class="row align-items-center">
       <div class="col">
         <div class="card product-card" >
@@ -14,7 +17,7 @@
         </div>
         <div class="col bunga">
           <div class="card product-card">
-            <img src="image/bunga 1.png" alt="Adidas Samba" class="card-img-top">
+            <img src="image/bunga_1.png" alt="Adidas Samba" class="card-img-top">
             <div class="card-body product-info">
               <h6>BUNGA</h6>
               <p>KUBAH TERPESONA - MERAH BERGAIRAH</p>
@@ -78,5 +81,11 @@
           </div>   
         </div>
       </div>
+      <div class="col">
+        
+      </div>
+      <div class="col">
+
+      </div>
     </div>
-  </div>  
+</div>  
