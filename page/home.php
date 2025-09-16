@@ -67,6 +67,7 @@
             <a href="boneka1.html"><button type="button"class="buton button">Lebih Detail</button></a>
           </div>
         </div>    
+       
         <div class="col bunga">
           <div class="card product-card">
             <img src="image/bunga 3.png" alt="Adidas Samba" class="card-img-top">
@@ -86,6 +87,9 @@
       </div>
       <div class="col">
 
+      </div>
+      <div class="brosur">
+        <img src="image/brosus laundry.png" alt="">
       </div>
     </div>
 </div>  
