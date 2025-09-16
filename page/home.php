@@ -88,8 +88,6 @@
       <div class="col">
 
       </div>
-      <div class="brosur">
-        <img src="image/brosus laundry.png" alt="">
-      </div>
+      
     </div>
 </div>  
