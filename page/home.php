@@ -1,7 +1,4 @@
 <div class="container text-center">
-  <div class="">
-    <p>Boneka terlaris tahun ini</p>
-  </div>  
     <div class="row align-items-center">
       <div class="col">
         <div class="card product-card" >
