@@ -45,7 +45,7 @@
         <div class="card product-card">
           <img src="image/boneka 4.webp" alt="" class="card-img-top">
             <div class="card-body product-info">
-            <h6>BERUANG</h6>
+            <h6>PENGUIN </h6>
             <p>BANTAL KOREAN PENGUIN TERBARU / BONEKA MEWAH SIZE 30 cm</p>
             <p class="  ketharga fs-6 text-decoration-line-through">$18,32 USD   </p>
             <p class="ketdiskon">( -4%)</p>
