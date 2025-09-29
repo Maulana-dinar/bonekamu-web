@@ -50,20 +50,20 @@
             <p class="  ketharga fs-6 text-decoration-line-through">$18,32 USD   </p>
             <p class="ketdiskon">( -4%)</p>
             <p class="keterharga fs-5 ">Rp. 300.000</p>
-            <a href="boneka1.html"><button type="button"class="buton button">Lebih Detail</button></a>
+            <a href=""><button type="button"class="buton button">Lebih Detail</button></a>
           </div>
         </div>    
       </div>
       <div class="col">
         <div class="card product-card">
-          <img src="image/boneka1.jpg" alt="Adidas Samba" class="card-img-top">
+          <img src="image/boneka 5.webp" alt="Adidas Samba" class="card-img-top">
             <div class="card-body product-info">
-            <h6>BERUANG</h6>
-            <p>STUFFED PANDA ANIMAL COSTUME</p>
-            <p class="  ketharga fs-6 text-decoration-line-through">$18,32 USD   </p>
-            <p class="ketdiskon">( -4%)</p>
-            <p class="keterharga fs-5 ">Rp. 300.000</p>
-            <a href="boneka1.html"><button type="button"class="buton button">Lebih Detail</button></a>
+            <h6>PENGUIN</h6>
+            <p>OHSOME RUANI BONEKA PENGUIN 80CM</p>
+            <p class="  ketharga fs-6">$9,62 USD   </p>
+            <p class="ketdiskon"></p>
+            <p class="keterharga fs-5 ">Rp. 160.000</p>
+            <a href=""><button type="button"class="buton button">Lebih Detail</button></a>
           </div>
         </div>    
       </div>
