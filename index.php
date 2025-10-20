@@ -10,7 +10,7 @@
 
   <?php include "route/web.php"; ?>
   
-  <?php include "page/hewan.php"; ?>
+  
 
   <?php include "component/footer.php";?>
   
