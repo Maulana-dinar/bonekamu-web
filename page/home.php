@@ -66,17 +66,6 @@
             <a href=""><button type="button"class="buton button">Lebih Detail</button></a>
           </div>
         </div>    
-        <!-- <div class="card product-card part 2">
-          <img src="image/boneka 5.webp" alt="Adidas Samba" class="card-img-top">
-            <div class="card-body product-info">
-            <h6>PENGUIN</h6>
-            <p>OHSOME RUANI BONEKA PENGUIN 80CM</p>
-            <p class="  ketharga fs-6">$9,62 USD   </p>
-            <p class="ketdiskon"></p>
-            <p class="keterharga fs-5 ">Rp. 160.000</p>
-            <a href=""><button type="button"class="buton button">Lebih Detail</button></a>
-          </div>
-        </div>   -->
       </div>
     </div>
 </div>  
