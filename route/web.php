@@ -1,9 +1,9 @@
 <?php 
 
-    $page = isset($_GET['page']) ? $_GET['page'] : "home";
+    $page = isset($_GET['page']) ? $_GET['page'] : "hewan";
 
-    if($page == "home") {
-        include "page/home.php";
+    if($page == "hewan") {
+        include "page/hewan.php";
     }
 
 
