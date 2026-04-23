@@ -33,8 +33,5 @@
         </div>
       </div>
     </div>
-    <div class="col brosur">
-      <img src="image/brosus laundry.png" alt="">
-    </div>
   </div>    
 </div>  

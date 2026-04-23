@@ -7,10 +7,8 @@
   
    
   <?php include "component/billboard.php";?>
-
+  
   <?php include "route/web.php"; ?>
-  
-  
 
   <?php include "component/footer.php";?>
   

@@ -6,8 +6,6 @@
           <div class="card-body product-info">
             <h6>BERUANG</h6>
             <p>CUSTOM GIANT TEDDY BEAR</p>
-            <p class="  ketharga fs-6 text-decoration-line-through">$24,11 USD</p>
-            <p class="ketdiskon">( -25%)</p>
             <p class="keterharga fs-5 ">Rp. 395.000</p>
             <a href="boneka3.html"><button type="button"class="buton button">Lebih Detail</button></a>
           </div>
@@ -20,8 +18,6 @@
           <div class="card-body product-info">
             <h6>BERUANG</h6>
             <p>OUTERBLOOM CUDDLEMATE BUTARRO BEAR KISS SIZE 20 CM</p>
-            <p class="  ketharga fs-6 text-decoration-line-through">$7,63 USD   </p>
-            <p class="ketdiskon">( -43%)</p>
             <p class="keterharga fs-5 ">Rp. 125.000</p>
             <a href="boneka2.html"><button type="button"class="buton button">Lebih Detail</button></a>
           </div>
@@ -34,8 +30,6 @@
             <div class="card-body product-info">
             <h6>BERUANG</h6>
             <p>STUFFED PANDA ANIMAL COSTUME</p>
-            <p class="  ketharga fs-6 text-decoration-line-through">$18,32 USD   </p>
-            <p class="ketdiskon">( -4%)</p>
             <p class="keterharga fs-5 ">Rp. 300.000</p>
             <a href="boneka1.html"><button type="button"class="buton button">Lebih Detail</button></a>
           </div>
@@ -47,8 +41,6 @@
             <div class="card-body product-info">
             <h6>PENGUIN </h6>
             <p>BANTAL KOREAN PENGUIN TERBARU / BONEKA MEWAH SIZE 30 cm</p>
-            <p class="  ketharga fs-6 text-decoration-line-through">$15,02 USD   </p>
-            <p class="ketdiskon">( -2%)</p>
             <p class="keterharga fs-5 ">Rp. 245.000</p>
             <a href=""><button type="button"class="buton button">Lebih Detail</button></a>
           </div>
@@ -60,7 +52,6 @@
             <div class="card-body product-info">
             <h6>PENGUIN</h6>
             <p>OHSOME RUANI BONEKA PENGUIN 80CM</p>
-            <p class="  ketharga fs-6">$9,62 USD   </p>
             <p class="ketdiskon"></p>
             <p class="keterharga fs-5 ">Rp. 160.000</p>
             <a href=""><button type="button"class="buton button">Lebih Detail</button></a>
