@@ -85,8 +85,7 @@
         <!-- LEFT -->
         <div class="footer-left">
             <div class="logo">
-                <img src="logo.png">
-                <span>ASTRON</span>
+                <span>BONEKAMU</span>
             </div>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -125,6 +124,6 @@
     </div>
 
     <div class="footer-bottom">
-        Copyright © 2023 astron | Powered by astron
+        Copyright © 2024 | Powered by bonekamu
     </div>
 </footer>
