@@ -13,7 +13,7 @@
         </div>
         
       </div>
-      <div class="col">
+      <!-- <div class="col">
         <div class="card product-card">
           <img src="image/boneka 2.png" alt="Adidas Samba" class="card-img-top">
           <div class="card-body product-info">
@@ -59,6 +59,6 @@
             <a href=""><button type="button"class="buton button">Lebih Detail</button></a>
           </div>
         </div>    
-      </div>
+      </div> -->
     </div>
 </div>  

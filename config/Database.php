@@ -1,19 +1,25 @@
 <?php
-class Database{
+
+class Database {
+
     private $connection;
-    public function getConnection(){
-        $this->connection = null;
-        try{
-            $this->connection = new mysqli("localhost", "root", '', "web_bonekamu");
 
-            if($this->connection->connect_error){
-                die("Connection failed: " . $this->connection->connect_error);
-            }
+    public function getConnection() {
 
-            $this->connection->set_charset("utf8");
-            return $this->connection;
-        }catch(Exception $e){
-            echo 'Connection failed : '.$e->getMessage();
+        $this->connection = mysqli_connect(
+            "localhost",
+            "root",
+            "",
+            "web_bonekamu"
+        );
+
+        if (!$this->connection) {
+            die("Connection failed: " . mysqli_connect_error());
         }
+
+        mysqli_set_charset($this->connection, "utf8");
+
+        return $this->connection;
     }
 }
+?>
