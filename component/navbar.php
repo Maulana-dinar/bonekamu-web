@@ -18,7 +18,11 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kategori</a>
               <ul class="dropdown-menu" style="background-color: #FBF3D5;">
-                <li><a class="dropdown-item" href="hewan.php">test</a></li>
+                <li>
+                  <a class="dropdown-item" href="index.php?page=karakter">Karakter</a>
+                  <a class="dropdown-item" href="index.php?page=hewan">Hewan</a>
+                  <a class="dropdown-item" href="index.php?page=fashion">Fashion</a>
+                </li>
               </ul>
             </li>
           </ul>   

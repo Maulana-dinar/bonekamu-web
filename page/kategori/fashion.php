@@ -5,23 +5,21 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/bonekamu-web/config/Database.php';
 $database = new Database();
 $koneksi = $database->getConnection();
 
-// semua produk
+// kategori Fashion = 3
 $query = mysqli_query(
     $koneksi,
-
-    "SELECT produk.*, kategori.nama_kategori
-
-     FROM produk
-
-     JOIN kategori
-     ON produk.id_kategori = kategori.id_kategori
-
-     ORDER BY produk.id_produk DESC"
+    "SELECT * FROM produk
+     WHERE id_kategori='3'
+     ORDER BY id_produk DESC"
 );
 
 ?>
 
 <div class="container mt-5">
+
+    <h2 class="mb-4">
+        Fashion
+    </h2>
 
     <div class="row">
 
@@ -31,42 +29,26 @@ $query = mysqli_query(
 
                 <div class="card product-card h-100 shadow-sm">
 
-                    <!-- gambar -->
                     <img src="/bonekamu-web/image/produk/<?= $data['gambar']; ?>"
                          class="card-img-top"
                          style="height:250px; object-fit:cover;">
 
-                    <div class="card-body product-info text-center">
+                    <div class="card-body product-info">
 
-                        <!-- kategori -->
-                        <small class="text-muted">
-
-                            <?= $data['nama_kategori']; ?>
-
-                        </small>
-
-                        <!-- nama -->
-                        <h6 class="mt-2">
-
+                        <h6>
                             <?= strtoupper($data['nama_produk']); ?>
-
                         </h6>
 
-                        <!-- deskripsi -->
                         <p>
-
-                            <?= substr($data['deskripsi'], 0, 40); ?>...
-
+                            <?= substr($data['deskripsi'], 0, 50); ?>...
                         </p>
 
-                        <!-- harga -->
                         <p class="keterharga fs-5">
 
                             Rp <?= number_format($data['harga'], 0, ',', '.'); ?>
 
                         </p>
 
-                        <!-- detail -->
                         <a href="index.php?page=detail&id=<?= $data['id_produk']; ?>">
 
                             <button type="button"
